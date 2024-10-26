@@ -3,7 +3,7 @@ class PowerCrab extends Enemy {
     super(board);
     this.width = 55;
     this.height = 60;
-    this.element.setAttribute("src", "../../assets/img/crab.gif");
+    this.element.setAttribute("src", "./assets/img/crab.gif");
     this.element.className = "powerCrab";
   }
   move() {

@@ -6,7 +6,7 @@ class RatEnemy extends Enemy {
     
    
     // this.element = document.createElement("img");
-    this.element.setAttribute("src", "../../assets/img/rat.gif");
+    this.element.setAttribute("src", "./assets/img/rat.gif");
   }
 
   draw(){

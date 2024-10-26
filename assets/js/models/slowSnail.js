@@ -3,7 +3,7 @@ class SlowSnail extends Enemy {
         super(board);
         this.width = 50;
         this.height = 40;
-        this.element.setAttribute("src", "../../assets/img/snail.gif");
+        this.element.setAttribute("src", "./assets/img/snail.gif");
         this.element.className = "slowSnail";
     }
     move(){

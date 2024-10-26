@@ -5,7 +5,7 @@ class RockPoints extends Enemy {
     this.widht = 5;
     this.height = 45;
 
-    this.element.setAttribute("src", "../../assets/img/rock2.png");
+    this.element.setAttribute("src", "./assets/img/rock2.png");
     this.element.className = "rock";
   }
   draw() {

@@ -6,7 +6,7 @@ class PigEnemy extends Enemy {
    
     this.width = 75;
     this.height = 40;
-    this.element.setAttribute("src", "../../assets/img/pig.gif");
+    this.element.setAttribute("src", "./assets/img/pig.gif");
   }
   draw() {
     super.draw();

@@ -5,7 +5,7 @@ class NutPoints extends Enemy {
         this.widht = 5;
         this.height = 45;
     
-        this.element.setAttribute("src", "../../assets/img/nut.png");
+        this.element.setAttribute("src", "./assets/img/nut.png");
         this.element.className = "nut";
 
     }

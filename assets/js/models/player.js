@@ -14,7 +14,7 @@ class Player {
 
     //Here we write the code like if we were in adding elements in HTML or styles with CSS
     this.element = document.createElement("img");
-    this.element.setAttribute("src", "../../assets/img/dodo-pixel-cropped.gif");
+    this.element.setAttribute("src", "./assets/img/dodo-pixel-cropped.gif");
     this.element.className = "player";
     this.element.style.position = "absolute";
     this.hasStarted = false;
