@@ -17,7 +17,7 @@ class Enemy {
     this.sx = 5;
     
     this.element = document.createElement("img");
-    this.element.setAttribute("src", "../../assets/img/pirate.gif");
+    this.element.setAttribute("src", "./assets/img/pirate.gif");
     this.element.className = "enemy";
     this.element.style.position = "absolute";
 
