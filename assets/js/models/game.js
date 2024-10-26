@@ -302,7 +302,7 @@ class Game {
       this.question = this.possibleQuestions[this.randomNumber];
       window.clearInterval(this.interval);
 
-      this.imageBox.src = `../../assets/questionsPNG/${this.question.questionSrc}.png`;
+      this.imageBox.src = `./assets/questionsPNG/${this.question.questionSrc}.png`;
       this.questionDiv.style.display = "flex";
 
       this.questions = this.questions.filter((question) => {
