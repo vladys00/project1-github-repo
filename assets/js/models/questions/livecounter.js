@@ -9,7 +9,7 @@ class LiveCounter {
     this.body = document.body;
 
     this.element = document.createElement("img");
-    this.element.setAttribute("src", "../../assets/img/pixel-heart.gif");
+    this.element.setAttribute("src", "./assets/img/pixel-heart.gif");
     this.element.style.width = this.width + "px";
     this.element.style.height = this.height + "px";
     this.element.style.position = "absolute";
