@@ -36,10 +36,10 @@ class Game {
     this.scoreNum = 0;
 
     this.crabs = [];
-    this.crabTick = 850;
+    this.crabTick = 950;
 
     this.snails = [];
-    this.snailsTick = 650;
+    this.snailsTick = 750;
 
     this.rocks = [];
     this.rockTick = 100;
@@ -48,14 +48,14 @@ class Game {
     this.nutTick = 125;
 
     this.enemies = [];
-    this.enemytick = 500;
+    this.enemytick = 750;
     this.tick = 0;
 
     this.ratsEnemies = [];
-    this.ratEnemyTick = 90;
+    this.ratEnemyTick = 150;
 
     this.pigsEnemies = [];
-    this.pigEnemyTick = 70;
+    this.pigEnemyTick = 185;
   }
   initData() {}
 
@@ -71,7 +71,7 @@ class Game {
         this.pigEnemyTick -= 10;
       }
       if (this.tick % 2150 === 0) {
-        this.ratEnemyTick -= 5;
+        this.ratEnemyTick -= 10;
       }
       if (this.tick % 3200 === 0) {
         this.enemytick -= 15;
