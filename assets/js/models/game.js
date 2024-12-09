@@ -229,6 +229,7 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        localStorage.setItem('gameScore', this.scoreNum);
       }
     }
 
@@ -258,6 +259,7 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        localStorage.setItem('gameScore', this.scoreNum);
       }
     }
 
@@ -289,6 +291,7 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        localStorage.setItem('gameScore', this.scoreNum);
       }
     }
 
@@ -313,6 +316,7 @@ class Game {
         window.clearInterval(this.interval);
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        localStorage.setItem('gameScore', this.scoreNum);
       }
     }
 
