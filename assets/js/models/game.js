@@ -225,6 +225,7 @@ class Game {
 
       if (this.player.lives === 0) {
         let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
@@ -256,6 +257,7 @@ class Game {
 
       if (this.player.lives === 0) {
         let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
@@ -289,6 +291,7 @@ class Game {
 
       if (this.player.lives === 0) {
         let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
@@ -316,6 +319,7 @@ class Game {
       });
       if (this.player.lives === 0) {
         let score = this.scoreNum;
+        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         this.finalScore.innerHTML = `${this.scoreNum}`;
         window.clearInterval(this.interval);
