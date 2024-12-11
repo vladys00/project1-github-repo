@@ -232,7 +232,7 @@ class Game {
         let score = this.scoreNum;
         localStorage.setItem('gameScore', score);
         // Send the score as an object
-        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
         console.log("END GAME, SCORE-->>", score)
       }
     }
@@ -266,7 +266,7 @@ class Game {
         let score = this.scoreNum;
         localStorage.setItem('gameScore', score);
         // Send the score as an object
-        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
         console.log("END GAME, SCORE-->>", score)
       }
     }
@@ -302,7 +302,7 @@ class Game {
         let score = this.scoreNum;
         localStorage.setItem('gameScore', score);
         // Send the score as an object
-        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
         console.log("END GAME, SCORE-->>", score)
       }
     }
@@ -331,7 +331,7 @@ class Game {
         let score = this.scoreNum;
         localStorage.setItem('gameScore', score);
         // Send the score as an object
-        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
         console.log("END GAME, SCORE-->>", score);
       }
     }
