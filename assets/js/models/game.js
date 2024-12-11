@@ -331,7 +331,8 @@ class Game {
         let score = this.scoreNum;
         localStorage.setItem('gameScore', score);
         // Send the score as an object
-        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
+        window.document.body.postMessage({ post: 'askldaldal' }, '*');
+        window.parent.postMessage({ post: 'askldaldal' }, '*');
         console.log("END GAME, SCORE-->>", score);
       }
     }
