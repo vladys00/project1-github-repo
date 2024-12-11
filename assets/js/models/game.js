@@ -230,10 +230,6 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum;
-        localStorage.setItem('gameScore', score);
-        // Send the score as an object
-        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
-        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -264,10 +260,6 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum;
-        localStorage.setItem('gameScore', score);
-        // Send the score as an object
-        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
-        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -300,10 +292,6 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum;
-        localStorage.setItem('gameScore', score);
-        // Send the score as an object
-        window.parent.postMessage('Hello from iframe!', 'http://localhost:3000');
-        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -329,10 +317,6 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum;
-        localStorage.setItem('gameScore', score);
-        // Send the score as an object
-        window.document.body.postMessage({ post: 'askldaldal' }, '*');
-        window.parent.postMessage({ post: 'askldaldal' }, '*');
         console.log("END GAME, SCORE-->>", score);
       }
     }
