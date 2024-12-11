@@ -229,10 +229,11 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
-        let score = this.scoreNum
-        window.parent.postMessage("score", 'http://localhost:3000/play');
-        localStorage.setItem('gameScore',score)
-        console.log("END GAME, SCOR-->>",score)
+        let score = this.scoreNum;
+        localStorage.setItem('gameScore', score);
+        // Send the score as an object
+        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -262,10 +263,11 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
-        let score = this.scoreNum
-        window.parent.postMessage("score", 'http://localhost:3000/play');
-        localStorage.setItem('gameScore',score)
-        console.log("END GAME, SCOR-->>",score)
+        let score = this.scoreNum;
+        localStorage.setItem('gameScore', score);
+        // Send the score as an object
+        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -297,10 +299,11 @@ class Game {
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
-        let score = this.scoreNum
-        window.parent.postMessage("score", 'http://localhost:3000/play');
-        localStorage.setItem('gameScore',score)
-        console.log("END GAME, SCOR-->>",score)
+        let score = this.scoreNum;
+        localStorage.setItem('gameScore', score);
+        // Send the score as an object
+        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        console.log("END GAME, SCORE-->>", score)
       }
     }
 
@@ -326,9 +329,10 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum;
-        localStorage.setItem('gameScore',score)
-        window.parent.postMessage("score", 'http://localhost:3000/play');
-        console.log("END GAME, SCOR-->>",score);
+        localStorage.setItem('gameScore', score);
+        // Send the score as an object
+        window.parent.postMessage({ event: 'gameEnd', score: score }, 'http://localhost:3000');
+        console.log("END GAME, SCORE-->>", score);
       }
     }
 
