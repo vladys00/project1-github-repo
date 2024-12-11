@@ -230,9 +230,9 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum
-        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         localStorage.setItem('gameScore',score)
+        console.log("END GAME, SCOR-->>",score)
       }
     }
 
@@ -263,9 +263,9 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum
-        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         localStorage.setItem('gameScore',score)
+        console.log("END GAME, SCOR-->>",score)
       }
     }
 
@@ -298,9 +298,9 @@ class Game {
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
         let score = this.scoreNum
-        console.log("END GAME, SCOR-->>",score)
         window.parent.postMessage("score", '*');
         localStorage.setItem('gameScore',score)
+        console.log("END GAME, SCOR-->>",score)
       }
     }
 
@@ -327,8 +327,8 @@ class Game {
         this.gameOverSound.play();
         let score = this.scoreNum;
         localStorage.setItem('gameScore',score)
-        console.log("END GAME, SCOR-->>",score);
         window.parent.postMessage("score", '*');
+        console.log("END GAME, SCOR-->>",score);
       }
     }
 
