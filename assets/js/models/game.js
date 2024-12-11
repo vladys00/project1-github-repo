@@ -224,15 +224,15 @@ class Game {
       }
 
       if (this.player.lives === 0) {
-        let score = this.scoreNum
-        localStorage.setItem(score)
-        console.log("END GAME, SCOR-->>",score)
-        window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
+        window.parent.postMessage("score", '*');
+        localStorage.setItem('gameScore',score)
       }
     }
 
@@ -257,15 +257,15 @@ class Game {
       }
 
       if (this.player.lives === 0) {
-        let score = this.scoreNum
-        localStorage.setItem(score)
-        console.log("END GAME, SCOR-->>",score)
-        window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
+        window.parent.postMessage("score", '*');
+        localStorage.setItem('gameScore',score)
       }
     }
 
@@ -292,15 +292,15 @@ class Game {
       }
 
       if (this.player.lives === 0) {
-        let score = this.scoreNum
-        localStorage.setItem(score)
-        console.log("END GAME, SCOR-->>",score)
-        window.parent.postMessage("score", '*');
         window.clearInterval(this.interval);
         this.draw();
         this.finalScore.innerHTML = `${this.scoreNum}`;
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        let score = this.scoreNum
+        console.log("END GAME, SCOR-->>",score)
+        window.parent.postMessage("score", '*');
+        localStorage.setItem('gameScore',score)
       }
     }
 
@@ -321,14 +321,14 @@ class Game {
         return collidedQuestion !== question;
       });
       if (this.player.lives === 0) {
-        let score = this.scoreNum;
-        localStorage.setItem(score)
-        console.log("END GAME, SCOR-->>",score);
-        window.parent.postMessage("score", '*');
         this.finalScore.innerHTML = `${this.scoreNum}`;
         window.clearInterval(this.interval);
         this.gameOver.style.display = "flex";
         this.gameOverSound.play();
+        let score = this.scoreNum;
+        localStorage.setItem('gameScore',score)
+        console.log("END GAME, SCOR-->>",score);
+        window.parent.postMessage("score", '*');
       }
     }
 
