@@ -21,10 +21,10 @@ Dodo Survival is a 2D game built to showcase my skills in **DOM manipulation, HT
 
 ## 📷 Screenshots
 
-<img width="1851" alt="Screenshot 2025-03-10 at 18 11 04" src="https://github.com/user-attachments/assets/d9389211-fd4e-4a39-96dd-5013d0a24a1f" />
-<img width="1887" alt="Screenshot 2025-03-10 at 18 08 54" src="https://github.com/user-attachments/assets/2e080523-a37b-48fa-aacb-93a98a898030" />
-<img width="1873" alt="Screenshot 2025-03-10 at 18 08 34" src="https://github.com/user-attachments/assets/9d1d0cb4-12ed-4678-8bc1-60f4adc22c10" />
 <img width="1870" alt="Screenshot 2025-03-10 at 18 11 53" src="https://github.com/user-attachments/assets/3484faf1-4a4b-4124-aa1b-ff8501c64389" />
+<img width="1873" alt="Screenshot 2025-03-10 at 18 08 34" src="https://github.com/user-attachments/assets/9d1d0cb4-12ed-4678-8bc1-60f4adc22c10" />
+<img width="1887" alt="Screenshot 2025-03-10 at 18 08 54" src="https://github.com/user-attachments/assets/2e080523-a37b-48fa-aacb-93a98a898030" />
+<img width="1851" alt="Screenshot 2025-03-10 at 18 11 04" src="https://github.com/user-attachments/assets/d9389211-fd4e-4a39-96dd-5013d0a24a1f" />
 
 
 ## 🔗 Play the Game
