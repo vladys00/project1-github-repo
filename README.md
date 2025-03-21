@@ -1,5 +1,5 @@
 # 🦤 Dodo Survival – A 2D Game
-** Link here:*** [Link Text](https://vladys00.github.io/project1-github-repo/)
+** Link here:*** [The Dodo Game](https://vladys00.github.io/project1-github-repo/)
 
 ## 🎮 About the Game
 Dodo Survival is a 2D game built to showcase my skills in **DOM manipulation, HTML, and CSS**. Players control a dodo bird in an interactive environment where they must:
